@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableFeignClients(basePackages = {
-	"store.account"
+		"store.account"
 })
 @SpringBootApplication
 public class AuthApplication {

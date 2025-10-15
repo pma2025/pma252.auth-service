@@ -8,3 +8,12 @@ spring:
   mvc:
     problemdetails:
       enabled: true
+
+store:
+  jwt:
+    secretKey: ${JWT_SECRET_KEY:changeit}
+
+logging:
+  level:
+    root: info
+    store: debug
