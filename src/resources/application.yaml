@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: auth
+
+  mvc:
+    problemdetails:
+      enabled: true
+
+store:
+  jwt:
+    secretKey: ${JWT_SECRET_KEY:changeit}
+
+logging:
+  level:
+    root: info
+    store: debug
